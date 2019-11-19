@@ -1,6 +1,8 @@
 # Ribbon cable breakdown board
 It is fully compatible with [original transfer board](https://www.aliexpress.com/item/33040303019.html), helps with wiring with non-original motherboards.
 
+FYI, it you just want the gerber files go to 
+https://github.com/SkullKill/cr-10s-pro-mods/releases
 
 changes from fork
 - Beefed up trace width where possible. 
