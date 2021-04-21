@@ -29,7 +29,7 @@ changes from fork:
 
 ReXT3d changes from fork (April 2021):
 
-- Removed the LED connector to free-up four ribbon cable conductors.  This allows fully independent signal routing and eliminated all shared grounds and power.
+- Removed the LED connector to free-up three ribbon cable conductors.  This allows fully independent signal routing and eliminated all shared grounds and power.
 - Relocated connectors for slightly better clearances.
 - Added a Z_MIN connector that shares wiring with the BL_TOUCH connector.  This allows use of the stock capacitive probe, or similar capacitive or inductive probes.
 - Widened and doubled the MOTOR and HEAT traces to both layers for improved current carrying capacity.
