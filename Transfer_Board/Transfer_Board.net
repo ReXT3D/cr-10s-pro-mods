@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source "C:\\Users\\Piotr Twarecki\\Desktop\\cr-10s-pro-mods-master\\Transfer_Board_Modified\\Transfer_Board.sch")
-    (date "2021-04-16 3:18:17 PM")
+    (source "C:\\Users\\Piotr Twarecki\\Documents\\GitHub\\cr-10s-pro-mods\\Transfer_Board\\Transfer_Board.sch")
+    (date "2021-04-30 12:44:26 AM")
     (tool "Eeschema (5.1.9)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -73,7 +73,7 @@
       (tstamp 5D970711))
     (comp (ref RIBBON1)
       (value Conn_02x15_Odd_Even)
-      (footprint Connector_IDC:IDC-Header_2x15_P2.54mm_Horizontal)
+      (footprint Connector_IDC:IDC-Header_2x15-1MP_P2.54mm_Latch_Horizontal)
       (datasheet ~)
       (libsource (lib Connector_Generic) (part Conn_02x15_Odd_Even) (description "Generic connector, double row, 02x15, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))

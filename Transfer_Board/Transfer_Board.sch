@@ -1283,7 +1283,7 @@ U 1 1 5D966673
 P 4600 4350
 F 0 "RIBBON1" H 4650 5267 50  0000 C CNN
 F 1 "Conn_02x15_Odd_Even" H 4650 5176 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x15_P2.54mm_Horizontal" H 4600 4350 50  0001 C CNN
+F 2 "Connector_IDC:IDC-Header_2x15-1MP_P2.54mm_Latch_Horizontal" H 4600 4350 50  0001 C CNN
 F 3 "~" H 4600 4350 50  0001 C CNN
 	1    4600 4350
 	1    0    0    -1  
