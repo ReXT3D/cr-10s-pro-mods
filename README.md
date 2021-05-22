@@ -25,23 +25,38 @@ The original board design had an error in spacing of the two mounting post holes
   - Reduced minimum copper clearances in-line with OSHPark requirements, allowing for wider stepper motor traces.
   - Re-routed and widened all other traces once again.
 
-<img src="https://github.com/ReXT3D/cr-10s-pro-mods/raw/duet3d/Transfer_Board/images/top.png" width="300">
+<img src="https://github.com/ReXT3D/cr-10s-pro-mods/raw/duet3d/Transfer_Board/images/top.png" width="500">
+
+
 
 #### Wiring example for Duet 3 Mini 5+
-<img src="https://github.com/ReXT3D/cr-10s-pro-mods/raw/duet3d/Transfer_Board/images/duet3mini.png" width="300">
+
+The following table provides complete wiring reference for Duet 3 Mini 5+ installation in the CR-10S Pro.  This includes all of the ribbon cable signals routed through the transfer board as well as all other printer interfaces.  This has been verified and fully function tested.
+
+<img src="https://github.com/ReXT3D/cr-10s-pro-mods/raw/duet3d/Transfer_Board/images/duet3mini.png" width="500">
+
+
 
 #### Ready made board
-I ordered version 1.1 boards from JLCPCB as opposed to OSHPark primarily due to their quick turnaround time and they did not disappoint - I received the finished boards in five days.  The following photos  show the top and bottom of the finished board next to the Creality OEM board, as well as the finished board installed in my printer.  Note that the installed photo is misleading since there is plenty of clearance between the board the wiring and the lead screw.
 
-<img src="https://github.com/ReXT3D/cr-10s-pro-mods/raw/duet3d/Transfer_Board/images/finished-top.jpg" width="300">
+I ordered version 1.1 boards from JLCPCB as opposed to OSHPark to take advantage of their quick turnaround time and they did not disappoint - I received the finished boards in five days.  The following photos  show the top and bottom of the finished board next to the Creality OEM board, as well as the finished board installed in my printer.  Note that the installation photo is visually misleading and there is plenty of clearance between the board, the wiring and the lead screw.
 
-<img src="https://github.com/ReXT3D/cr-10s-pro-mods/raw/duet3d/Transfer_Board/images/finished-bottom.jpg" width="300">
+<img src="https://github.com/ReXT3D/cr-10s-pro-mods/raw/duet3d/Transfer_Board/images/finished-top.jpg" width="500">
 
-<img src="https://github.com/ReXT3D/cr-10s-pro-mods/raw/duet3d/Transfer_Board/images/finished-installed.jpg" width="300">
+<img src="https://github.com/ReXT3D/cr-10s-pro-mods/raw/duet3d/Transfer_Board/images/finished-bottom.jpg" width="500">
+
+<img src="https://github.com/ReXT3D/cr-10s-pro-mods/raw/duet3d/Transfer_Board/images/finished-installed.jpg" width="500">
+
+
+
+#### Firmware configuration
+
+I only run Klipper firmware, even on the Duet boards.  My Klipper configuration is located at [[DGUS-reloaded-Klipper-config]](https://github.com/ReXT3D/DGUS-reloaded-Klipper-config/tree/personal-duet3mini5+).  Note that the DGUS touch screen interface has not been tested yet as it requires additional modifications to Klipper.  Desuuuu was kind enough to create a dedicated test branch but I have not had the time to test it yet.
+
 
 
 ### CR-10S Pro Duet 3 Mini 5+ Mounting Bracket
 
 I designed a custom mounting bracket for the Duet 3 Mini 5+ control board.  The bracket picks-up on the existing CR-10S Pro enclosure mounting points, uses metal standoffs to avoid direct plastic contacts with a potentially hot PCB, and includes mounting for the stock blower fan with a fence that routes air over the bottom side of the PCB to correctly cool the TMC2209 stepper drivers.  More details are available on Thingiverse: [CR-10S Pro Duet 3 Mini 5+ Adapter Bracket](https://www.thingiverse.com/thing:4841999)
 
-<img src="https://github.com/ReXT3D/cr-10s-pro-mods/raw/duet3d/CR-10S_Pro_Duet_3_Mini_5+_Mouning_Bracket/images/bracket-installed.jpg" width="300">
+<img src="https://github.com/ReXT3D/cr-10s-pro-mods/raw/duet3d/CR-10S_Pro_Duet_3_Mini_5+_Mouning_Bracket/images/bracket-installed.jpg" width="500">
