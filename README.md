@@ -41,6 +41,10 @@ The following table provides complete wiring reference for Duet 3 Mini 5+ instal
 
 I ordered version 1.1 boards from JLCPCB as opposed to OSHPark to take advantage of their quick turnaround time and they did not disappoint - I received the finished boards in five days.  The following photos  show the top and bottom of the finished board next to the Creality OEM board, as well as the finished board installed in my printer.  Note that the installation photo is visually misleading and there is plenty of clearance between the board, the wiring and the lead screw.
 
+*I have several bare PCBs on-hand that I would be willing to part with.  Contact me if interested.*
+
+
+
 <img src="https://github.com/ReXT3D/cr-10s-pro-mods/raw/duet3d/Transfer_Board/images/finished-top.jpg" width="500">
 
 <img src="https://github.com/ReXT3D/cr-10s-pro-mods/raw/duet3d/Transfer_Board/images/finished-bottom.jpg" width="500">
