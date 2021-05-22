@@ -2,8 +2,6 @@
 
 ### CR-10S Pro Custom Transfer Board
 
-*** UNFINISHED WORK IN PROGRESS ***
-
 Customized [transfer board](Transfer_Board/) to allow maximum installation flexibility when using Duet3D control boards.  Note that this modified version **is NOT** compatible with [ribbon cable breakdown board (pt)](../RibbonCable_MB_BreakdownBoard_pt/), since several ribbon cable conductors have been relocated or re-purposed in order to separate all the signal and power lines.
 
 ReXT3D fork changes v1.0 (April 2021):
@@ -27,18 +25,23 @@ The original board design had an error in spacing of the two mounting post holes
   - Reduced minimum copper clearances in-line with OSHPark requirements, allowing for wider stepper motor traces.
   - Re-routed and widened all other traces once again.
 
-<img src="https://github.com/ReXT3D/cr-10s-pro-mods/raw/duet3d/Transfer_Board/images/top.png" width="250">
+<img src="https://github.com/ReXT3D/cr-10s-pro-mods/raw/duet3d/Transfer_Board/images/top.png" width="300">
 
 #### Wiring example for Duet 3 Mini 5+
-<img src="https://github.com/ReXT3D/cr-10s-pro-mods/raw/duet3d/Transfer_Board/images/duet3mini.png" width="250">
+<img src="https://github.com/ReXT3D/cr-10s-pro-mods/raw/duet3d/Transfer_Board/images/duet3mini.png" width="300">
 
 #### Ready made board
-*Photos coming soon*
+I ordered version 1.1 boards from JLCPCB as opposed to OSHPark primarily due to their quick turnaround time and they did not disappoint - I received the finished boards in five days.  The following photos  show the top and bottom of the finished board next to the Creality OEM board, as well as the finished board installed in my printer.  Note that the installed photo is misleading since there is plenty of clearance between the board the wiring and the lead screw.
 
+<img src="https://github.com/ReXT3D/cr-10s-pro-mods/raw/duet3d/Transfer_Board/images/finished-top.jpg" width="300">
+
+<img src="https://github.com/ReXT3D/cr-10s-pro-mods/raw/duet3d/Transfer_Board/images/finished-bottom.jpg" width="300">
+
+<img src="https://github.com/ReXT3D/cr-10s-pro-mods/raw/duet3d/Transfer_Board/images/finished-installed.jpg" width="300">
 
 
 ### CR-10S Pro Duet 3 Mini 5+ Mounting Bracket
 
-I am finalizing the design of a custom mounting bracket for the Duet 3 Mini 5+ control board.  The bracket picks-up on the existing enclosure mounting points, uses metal standoffs to avoid direct plastic contacts with a potentially hot PCB, and includes mounting for the stock blower fan with a fence that routes air over the bottom side of the PCB to correctly cool the TMC2209 stepper drivers.  More details are available on Thingiverse: [CR-10S Pro Duet 3 Mini 5+ Adapter Bracket](https://www.thingiverse.com/thing:4841999)
+I designed a custom mounting bracket for the Duet 3 Mini 5+ control board.  The bracket picks-up on the existing CR-10S Pro enclosure mounting points, uses metal standoffs to avoid direct plastic contacts with a potentially hot PCB, and includes mounting for the stock blower fan with a fence that routes air over the bottom side of the PCB to correctly cool the TMC2209 stepper drivers.  More details are available on Thingiverse: [CR-10S Pro Duet 3 Mini 5+ Adapter Bracket](https://www.thingiverse.com/thing:4841999)
 
-<img src="https://github.com/ReXT3D/cr-10s-pro-mods/raw/duet3d/CR-10S_Pro_Duet_3_Mini_5+_Mouning_Bracket/images/bracket-installed.jpg" width="250">
+<img src="https://github.com/ReXT3D/cr-10s-pro-mods/raw/duet3d/CR-10S_Pro_Duet_3_Mini_5+_Mouning_Bracket/images/bracket-installed.jpg" width="300">
