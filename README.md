@@ -55,7 +55,9 @@ I ordered version 1.1 boards from JLCPCB as opposed to OSHPark to take advantage
 
 #### Firmware configuration
 
-I only run Klipper firmware, even on the Duet boards.  My Klipper configuration is located at [[DGUS-reloaded-Klipper-config]](https://github.com/ReXT3D/DGUS-reloaded-Klipper-config/tree/personal-duet3mini5+).  Note that the DGUS touch screen interface has not been tested yet as it requires additional modifications to Klipper.  Desuuuu was kind enough to create a dedicated test branch but I have not had the time to test it yet.
+I only run Klipper firmware, even on the Duet boards.  My Klipper configuration is located at [[DGUS-reloaded-Klipper-config]](https://github.com/ReXT3D/DGUS-reloaded-Klipper-config/tree/personal-duet3mini5+).
+
+The Creality DGUS touch screen flashed with Desuuuu's slick [DGUS-reloaded-Klipper](https://github.com/Desuuuu/DGUS-reloaded-Klipper) interface now works and has been fully tested with Desuuuu's [Klipper](https://github.com/Desuuuu/klipper) branch as of his May 26, 2021 commits.  Many thanks to Desuuuu for graciously implementing the changes required to allow fully configurable serial comms with Klipper's ATSAMD code.
 
 
 
